@@ -1,0 +1,269 @@
+<title>SAVELOG 隱私政策</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink:     #111111;
+    --muted:   #555055;
+    --accent:  #F05A5A;
+    --ground:  #F7F4F4;
+    --surface: #FFFFFF;
+    --border:  #E0DADA;
+  }
+
+  html { font-size: 16px; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans GB',
+                 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    line-height: 1.75;
+    padding: 48px 24px 80px;
+    background: var(--ground);
+    color: var(--ink);
+  }
+
+  .wrap { max-width: 680px; margin: 0 auto; }
+
+  .site-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .logo-mark {
+    width: 36px; height: 36px;
+    background: var(--accent);
+    border-radius: 9px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .logo-mark svg {
+    width: 20px; height: 20px;
+    fill: none; stroke: #fff;
+    stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round;
+  }
+
+  .site-name {
+    font-size: 1rem; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--ink);
+  }
+
+  .page-title { margin-bottom: 40px; }
+
+  .page-title h1 {
+    font-size: clamp(1.6rem, 4vw, 2rem);
+    font-weight: 700; line-height: 1.25;
+    letter-spacing: -0.02em; text-wrap: balance;
+    margin-bottom: 8px;
+  }
+
+  .page-title .meta {
+    font-size: 0.85rem; color: var(--muted); letter-spacing: 0.02em;
+  }
+
+  .section { margin-bottom: 36px; }
+
+  .section h2 {
+    font-size: 0.875rem; font-weight: 700;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink);
+    padding-left: 12px;
+    border-left: 3px solid var(--accent);
+    margin-bottom: 14px; line-height: 1.4;
+  }
+
+  .section p {
+    font-size: 0.9375rem; color: var(--ink);
+    max-width: 62ch; margin-bottom: 10px;
+  }
+
+  .section p:last-child { margin-bottom: 0; }
+
+  .section ul { list-style: none; padding: 0; margin-bottom: 10px; }
+
+  .section ul li {
+    font-size: 0.9375rem; color: var(--ink);
+    padding: 5px 0 5px 20px;
+    position: relative; max-width: 62ch;
+  }
+
+  .section ul li::before {
+    content: '';
+    position: absolute; left: 0; top: 14px;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--accent); opacity: 0.6;
+  }
+
+  .table-wrap { overflow-x: auto; margin-top: 10px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+
+  thead th {
+    text-align: left; padding: 9px 12px;
+    background: #F5F3F3;
+    color: var(--muted);
+    font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 0.05em; text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+  }
+
+  tbody td {
+    padding: 11px 12px;
+    border-bottom: 1px solid var(--border);
+    color: var(--ink); vertical-align: top; line-height: 1.5;
+  }
+
+  tbody tr:last-child td { border-bottom: none; }
+
+  .divider { height: 1px; background: var(--border); margin: 36px 0; }
+
+  .contact-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 24px;
+  }
+
+  .contact-block p {
+    font-size: 0.9375rem; color: var(--ink); margin-bottom: 6px;
+  }
+
+  .contact-block p:last-child { margin-bottom: 0; }
+
+  .contact-block a { color: var(--accent); text-decoration: none; font-weight: 500; }
+  .contact-block a:hover { text-decoration: underline; }
+
+  .page-footer {
+    margin-top: 56px; padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 0.8125rem; color: var(--muted);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink:     #F0ECEC;
+      --muted:   #9B949A;
+      --ground:  #141214;
+      --surface: #1E1B1E;
+      --border:  #2E2A2E;
+    }
+    thead th { background: #1A181A; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="site-header">
+    <div class="logo-mark" aria-hidden="true">
+      <svg viewBox="0 0 20 20"><polyline points="4,10 8,14 16,6"/></svg>
+    </div>
+    <span class="site-name">SAVELOG</span>
+  </header>
+
+  <div class="page-title">
+    <h1>隱私政策</h1>
+    <p class="meta">最後更新：2026 年 7 月 11 日</p>
+  </div>
+
+  <div class="section">
+    <p>SAVELOG（每日任務）重視您的隱私。本政策說明我們收集哪些資訊、如何使用，以及您擁有哪些權利。我們不會將您的個人資料出售給任何第三方，也不用於廣告目的。</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <h2>我們收集的資料</h2>
+    <ul>
+      <li><strong>帳號資訊</strong>：透過 Google 登入取得的姓名、電子郵件及大頭貼。您也可以不登入，以訪客身份使用所有本機功能。</li>
+      <li><strong>任務與習慣資料</strong>：您建立的任務、完成紀錄、連續天數等，儲存於您的裝置本機，不上傳至伺服器。</li>
+      <li><strong>大頭貼圖片</strong>：您自訂上傳的頭像，儲存於您的裝置本機。</li>
+      <li><strong>推播通知 Token</strong>：啟用通知後，裝置的推播 Token 儲存於雲端，僅用於傳送挑戰通知與好友鼓勵訊息。</li>
+      <li><strong>好友與挑戰資料</strong>：好友代碼、好友關係、共同挑戰進度，儲存於雲端以支援多人功能。</li>
+      <li><strong>虛擬金幣與押注紀錄</strong>：App 內的虛擬金幣數量及好友間的押注記錄，儲存於雲端。金幣為純虛擬獎勵，不具任何實際貨幣價值，亦不可兌換或交易。</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>資料如何使用</h2>
+    <ul>
+      <li>提供任務追蹤、連續天數計算、統計圖表等核心功能</li>
+      <li>識別您的帳號並連接好友功能</li>
+      <li>傳送您設定的每日提醒通知</li>
+      <li>在挑戰中通知好友您的完成進度</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>資料儲存與安全</h2>
+    <p>任務紀錄與大頭貼僅儲存於您的裝置本機，解除安裝 App 即自動刪除。帳號資訊與社群功能所需資料透過 Firebase（Google Cloud）儲存，受 Google 的安全機制保護。我們採用 Firestore 安全規則，確保每位使用者只能存取自己被授權的資料。</p>
+  </div>
+
+  <div class="section">
+    <h2>第三方服務</h2>
+    <p>本 App 使用以下第三方服務，各服務均有獨立的隱私政策：</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>服務</th><th>用途</th><th>提供商</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Firebase Authentication</td><td>Google 帳號登入驗證</td><td>Google LLC</td></tr>
+          <tr><td>Cloud Firestore</td><td>社群資料、推播 Token 儲存</td><td>Google LLC</td></tr>
+          <tr><td>Expo Push Notifications</td><td>推播通知傳送</td><td>Expo Inc.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>推播通知</h2>
+    <p>您可隨時在裝置設定中關閉推播通知。關閉後仍可正常使用所有本機功能；僅社群通知（好友完成挑戰、鼓勵訊息）將不再接收。</p>
+  </div>
+
+  <div class="section">
+    <h2>兒童隱私</h2>
+    <p>SAVELOG 不針對 13 歲以下兒童設計，我們不會故意收集兒童個人資料。若您發現有相關情況，請聯絡我們，我們將儘速處理。</p>
+  </div>
+
+  <div class="section">
+    <h2>您的權利</h2>
+    <ul>
+      <li>隨時在 App 內登出，停止雲端資料同步</li>
+      <li>在「個人資料」頁面選擇「刪除帳號」，永久移除帳號及所有雲端資料</li>
+      <li>在裝置上清除 App 資料，刪除本機所有紀錄</li>
+      <li>聯絡我們申請查閱或更正您的個人資料</li>
+      <li>在裝置設定中關閉推播通知權限</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>政策變更</h2>
+    <p>本政策如有重大變更，將於頁面頂端更新「最後更新」日期。繼續使用本 App 即代表您同意更新後的政策。</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <h2>聯絡我們</h2>
+    <div class="contact-block">
+      <p>如有任何隱私相關問題，請聯絡：</p>
+      <p>電子郵件：<a href="mailto:print3cube@gmail.com">print3cube@gmail.com</a></p>
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    <p>© 2026 SAVELOG. 本政策以中文版本為準。</p>
+  </footer>
+</div>
